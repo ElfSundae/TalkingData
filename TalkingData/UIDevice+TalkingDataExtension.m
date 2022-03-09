@@ -13,7 +13,7 @@
 
 - (NSString *)talkingDataDeviceIdentifier
 {
-    return [TalkingDataSDK getDeviceID];
+    return [TalkingDataSDK getDeviceId];
 }
 
 @end

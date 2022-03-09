@@ -1,0 +1,18 @@
+PODS:
+  - TalkingData (5.0.1):
+    - TalkingData/Basic (= 5.0.1)
+  - TalkingData/Basic (5.0.1)
+
+DEPENDENCIES:
+  - TalkingData (from `.`)
+
+EXTERNAL SOURCES:
+  TalkingData:
+    :path: "."
+
+SPEC CHECKSUMS:
+  TalkingData: 21e5fe9fe19e34ab9b0b845ab84b5a18e184757e
+
+PODFILE CHECKSUM: d7d93ca757577905b4b2442ea55b71e62644a3bb
+
+COCOAPODS: 1.11.2
