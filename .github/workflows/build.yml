@@ -1,0 +1,22 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: pod install
+
+      - name: Build Example Project
+        run: |
+          xcodebuild clean build \
+            -workspace TalkingData.xcworkspace -scheme Example \
+            -configuration Release CODE_SIGN_IDENTITY=- \
+            -sdk iphonesimulator | xcpretty
+
+      - name: Lint Pod
+        run: pod lib lint --allow-warnings --skip-import-validation
