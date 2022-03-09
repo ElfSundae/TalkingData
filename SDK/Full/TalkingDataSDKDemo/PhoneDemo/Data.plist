@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>TalkingData SDK</string>
+		<key>functions</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Base</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>基础功能</string>
+				<key>subtitle</key>
+				<string>常规广告效果监测分析，包含点击、激活、注册、留存等行为统计。</string>
+				<key>detail</key>
+				<string>集成SDK并进行基础配置后则可以统计应用的基本情况，TalkingData提供以下基础统计：
+1、应用启动时间、启动次数、每次使用持续时长
+2、新增设备、活跃设备、设备留存、流失及回流
+3、设备的机型分布
+4、设备的地理位置分布
+5、设备的运营商及网络分布
+6、iOS设备是否越狱、是否安装破解应用
+7、应用异常分析（默认为关闭状态，集成SDK时请按需开启）
+
+其中以下几点需要注意：
+1、保证App ID正常。我们是通过App ID来区分不同应用的数据，所以请务必保证App ID正常。
+2、保证渠道ID正常。在分包推广时如果需要区分不同渠道带来的用户规模及运营效果，需要给每个渠道或活动一个独立的渠道ID。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Page</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>页面统计</string>
+				<key>subtitle</key>
+				<string>用于帮助开发者追踪用户对页面的访问情况，如页面访问量、停留时长、页面间跳转。</string>
+				<key>detail</key>
+				<string>页面统计用于帮助开发者追踪用户对页面的访问情况：
+1、在不同页面的访问量
+2、每个页面的停留时长
+3、页面间跳转情况
+对每个需要追踪的页面都需要开发者分别进行方法调用。
+
+此Demo默认统计此页面及其子页面的访问。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Industry</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>行业专属事件</string>
+				<key>subtitle</key>
+				<string>提供针对各个行业的专属API。</string>
+				<key>detail</key>
+				<string>　　TalkingData提供多种行业的各类事件追踪API，以进行事件监测等。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Custom</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>自定义事件</string>
+				<key>subtitle</key>
+				<string>用于帮助开发者追踪所有希望追踪的用户与App的交互行为。特指代码事件。</string>
+				<key>detail</key>
+				<string>　　自定义事件用于帮助开发者追踪所有希望追踪的用户与App的交互行为。目前TalkingData提供了代码事件和灵动事件两种方式。</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Codeless</string>
+				<key>selected</key>
+				<true/>
+				<key>title</key>
+				<string>灵动分析</string>
+				<key>subtitle</key>
+				<string>不需要预先进行代码埋点，在报表平台中通过动态添加，SDK会自动部署追踪码。</string>
+				<key>detail</key>
+				<string>　　灵动事件支持App界面中的按钮、输入框、单选和多选控件、图片按钮的点击动作自动计数。您不需要书写额外的触发代码，在报表平台中通过动态添加，SDK会自动部署追踪码。
+　　需要在报表页面对需要进行追踪的事件进行配置。
+　　查看功能演示：https://www.talkingdata.com/activity/smartcode/index.html</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
