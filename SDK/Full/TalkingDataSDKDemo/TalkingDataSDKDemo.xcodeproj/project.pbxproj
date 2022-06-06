@@ -11,6 +11,7 @@
 		54441012F8D504FCA4EF5758 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440012F8D504FCA4EF5758 /* CoreMotion.framework */; };
 		54441013F8D504FCA4EF5758 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440013F8D504FCA4EF5758 /* CoreTelephony.framework */; };
 		54441014F8D504FCA4EF5758 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440014F8D504FCA4EF5758 /* SystemConfiguration.framework */; };
+		54441015F8D504FCA4EF5758 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54440015F8D504FCA4EF5758 /* WebKit.framework */; };
 		5444101AF8D504FCA4EF5758 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5444001AF8D504FCA4EF5758 /* libc++.tbd */; };
 		5444101BF8D504FCA4EF5758 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5444001BF8D504FCA4EF5758 /* libz.tbd */; };
 		5444102AF8D504FCA4EF5758 /* libTalkingDataSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5444002AF8D504FCA4EF5758 /* libTalkingDataSDK.a */; };
@@ -39,6 +40,7 @@
 		54440012F8D504FCA4EF5758 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		54440013F8D504FCA4EF5758 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		54440014F8D504FCA4EF5758 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		54440015F8D504FCA4EF5758 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5444001AF8D504FCA4EF5758 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		5444001BF8D504FCA4EF5758 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		54440020F8D504FCA4EF5758 /* TalkingDataSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalkingDataSDK.h; path = ../TalkingDataSDK.h; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				54441012F8D504FCA4EF5758 /* CoreMotion.framework in Frameworks */,
 				54441013F8D504FCA4EF5758 /* CoreTelephony.framework in Frameworks */,
 				54441014F8D504FCA4EF5758 /* SystemConfiguration.framework in Frameworks */,
+				54441015F8D504FCA4EF5758 /* WebKit.framework in Frameworks */,
 				5444101AF8D504FCA4EF5758 /* libc++.tbd in Frameworks */,
 				5444101BF8D504FCA4EF5758 /* libz.tbd in Frameworks */,
 				5444102AF8D504FCA4EF5758 /* libTalkingDataSDK.a in Frameworks */,
@@ -120,6 +123,7 @@
 				54440012F8D504FCA4EF5758 /* CoreMotion.framework */,
 				54440013F8D504FCA4EF5758 /* CoreTelephony.framework */,
 				54440014F8D504FCA4EF5758 /* SystemConfiguration.framework */,
+				54440015F8D504FCA4EF5758 /* WebKit.framework */,
 				5444001AF8D504FCA4EF5758 /* libc++.tbd */,
 				5444001BF8D504FCA4EF5758 /* libz.tbd */,
 			);

@@ -14,9 +14,12 @@ jobs:
       - name: Build Example Project
         run: |
           xcodebuild clean build \
-            -workspace TalkingData.xcworkspace -scheme Example \
-            -configuration Release CODE_SIGN_IDENTITY=- \
-            -sdk iphonesimulator | xcpretty
+            -workspace TalkingData.xcworkspace \
+            -scheme Example \
+            -configuration Release \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 13 Pro' \
+            | xcpretty
 
       - name: Lint Pod
         run: pod lib lint --allow-warnings --skip-import-validation

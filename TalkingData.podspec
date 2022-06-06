@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TalkingData'
-  s.version = '5.0.1'
+  s.version = '5.0.5'
   s.summary = 'TalkingData SDK'
   s.homepage = 'https://github.com/ElfSundae/TalkingData'
   s.documentation_url = 'https://doc.talkingdata.com/posts/1024'

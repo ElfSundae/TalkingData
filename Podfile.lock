@@ -1,7 +1,7 @@
 PODS:
-  - TalkingData (5.0.1):
-    - TalkingData/Basic (= 5.0.1)
-  - TalkingData/Basic (5.0.1)
+  - TalkingData (5.0.5):
+    - TalkingData/Basic (= 5.0.5)
+  - TalkingData/Basic (5.0.5)
 
 DEPENDENCIES:
   - TalkingData (from `.`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  TalkingData: 21e5fe9fe19e34ab9b0b845ab84b5a18e184757e
+  TalkingData: aee0d72497b921a9648213d65ba9939a1114d88d
 
 PODFILE CHECKSUM: d7d93ca757577905b4b2442ea55b71e62644a3bb
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
